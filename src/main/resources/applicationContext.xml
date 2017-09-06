@@ -10,4 +10,6 @@
           
 	<context:component-scan base-package="com.garfieldwiki"></context:component-scan>
 	
+	<import resource="classpath:jmsConfig.xml"/>	
+	
 </beans>

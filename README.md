@@ -8,4 +8,6 @@ This project is built up of Spring Framework 4.3.10 Release.
 
 ### What is it?
 Make you to build web project faster.
-+ Spring Framework (SpringMVC)
++ Spring
++ SpringMVC
++ Spring JMS(ActiveMQ)
