@@ -14,7 +14,7 @@ public class QueueConsumer implements MessageListener {
 	public void onMessage(Message message) {
 		try {
 			TextMessage textMsg = (TextMessage) message;
-			LOGGER.info("Receive a message from ActiveMQ: " + textMsg.getText());
+			LOGGER.info("Receive a message from garfield queue: " + textMsg.getText());
 		} catch (JMSException e) {
 			LOGGER.warning(e.getMessage());
 		}
